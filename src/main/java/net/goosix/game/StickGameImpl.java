@@ -7,7 +7,7 @@ public class StickGameImpl implements Game {
 
     @Override
     public void start() {
-
+        //
     }
 
     @Override

@@ -1,4 +1,4 @@
-package net.goosix.listeners;
+package net.goosix.listener;
 
 import net.goosix.GoosixDuelsPlugin;
 import org.bukkit.event.EventHandler;

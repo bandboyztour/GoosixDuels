@@ -5,7 +5,7 @@ import org.bukkit.entity.Player;
 
 public interface GameLogic {
 
-    void playerJoined(Player player);
+    void starting(Player player);
     void playerQuit(Player player);
     void playerBlockBreak(Player player, Block block);
     void playerDeath(Player player);

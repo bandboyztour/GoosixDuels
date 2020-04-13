@@ -1,4 +1,4 @@
-package net.goosix.items;
+package net.goosix.item;
 
 import org.bukkit.Material;
 import org.bukkit.enchantments.Enchantment;
