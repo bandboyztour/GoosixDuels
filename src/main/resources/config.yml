@@ -1,0 +1,11 @@
+lobbyCoords: "world; 0;50;0"
+
+database:
+  url: "goosix.net"
+  databaseName: "duels"
+  userName: "root"
+  userPassword: "root_password"
+
+arenas:
+#STICK, ...
+  - "STICK; world; 55 : 50 : 50 | 45 : 50 : 50"
