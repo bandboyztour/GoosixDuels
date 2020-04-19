@@ -12,6 +12,4 @@ public class GoosixDuelsDatabaseManager {
         // проверка или не создана таблица "КАЯ ТО"
     }
 
-
-
 }

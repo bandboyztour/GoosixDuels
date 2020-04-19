@@ -6,7 +6,7 @@ import org.bukkit.Location;
 public class CoordsUtil {
 
     public static Location toLocationFromString(String stringLocation) {
-        String[] splitted = stringLocation.split(";");
+        String[] splitted = stringLocation.replace(" ", "").split(";");
         return new Location(Bukkit.getWorld(splitted[0]),
                 Double.parseDouble(splitted[1]),
                 Double.parseDouble(splitted[2]),
