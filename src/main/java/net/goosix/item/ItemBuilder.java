@@ -64,17 +64,15 @@ public class ItemBuilder {
 
     public ItemBuilder addLineToLore(String string) {
         ItemMeta itemMeta = itemStack.getItemMeta();
+        List<String> lore;
         if (itemMeta.getLore() == null) {
-            List<String> lore = new ArrayList<>();
-            lore.add(string);
-            itemMeta.setLore(lore);
-            itemStack.setItemMeta(itemMeta);
+            lore = new ArrayList<>();
         } else {
-            List<String> lore = itemMeta.getLore();
-            lore.add(string);
-            itemMeta.setLore(lore);
-            itemStack.setItemMeta(itemMeta);
+            lore = itemMeta.getLore();
         }
+        lore.add(string);
+        itemMeta.setLore(lore);
+        itemStack.setItemMeta(itemMeta);
         return this;
     }
 
